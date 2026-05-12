@@ -53,15 +53,17 @@ Cross-analysis of shipping mode and market showed nearly identical delay pattern
 ## Project Status
 Current Progress:
 - Excel exploratory analysis completed
-- Pivot tables and visual analysis completed
-- SQL analysis in progress
+- PivotTables, PivotCharts, and heatmap analysis completed
+- PostgreSQL database created
+- CSV dataset successfully imported into PostgreSQL
+- SQL data profiling in progress
 - Power BI dashboard development pending
-
 ---
 
 ## Planned Next Steps
-- Import dataset into PostgreSQL
-- Perform SQL business analysis
+- Write SQL data profiling queries
+- Create cleaned SQL views for analysis
+- Perform SQL business analysis on delivery delays
 - Build interactive Power BI dashboard
 - Create executive summary dashboard
 
@@ -69,10 +71,12 @@ Current Progress:
 
 ## Repository Structure
 
-```text
 supply-chain-delay-analysis/
 │
 ├── DataCoSupplyChainDataset.csv
 ├── supply_chain_analysis.xlsx
-└── README.md
+├── README.md
+│
+└── sql/
+    └── 01_create_table.sql
 ```
