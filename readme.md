@@ -58,12 +58,12 @@ Current Progress:
 - CSV dataset successfully imported into PostgreSQL
 - SQL data profiling completed
 - SQL cleaning and feature creation completed
-- SQL business analysis in progress
+- SQL business analysis in completed
 - Power BI dashboard development pending
 ---
 
 ## Planned Next Steps
-- Perform SQL business analysis on delivery delays
+- create SQL views for Power BI
 - Build interactive Power BI dashboard
 - Create executive summary dashboard
 
@@ -81,4 +81,5 @@ supply-chain-delay-analysis/
     └── 01_create_table.sql
      └─ 02_data_profiling.sql
      └── 03_cleaning.sql
+     └── 04_analysis.sql
 ```
