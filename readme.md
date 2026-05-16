@@ -56,7 +56,8 @@ Current Progress:
 - PivotTables, PivotCharts, and heatmap analysis completed
 - PostgreSQL database created
 - CSV dataset successfully imported into PostgreSQL
-- SQL data profiling in progress
+- SQL data profiling completed
+- SQL cleaning and feature creation in progress
 - Power BI dashboard development pending
 ---
 
@@ -79,4 +80,5 @@ supply-chain-delay-analysis/
 │
 └── sql/
     └── 01_create_table.sql
+     └── 02_data_profiling.sql
 ```

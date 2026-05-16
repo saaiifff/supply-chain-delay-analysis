@@ -64,4 +64,5 @@ WITH (
     ENCODING 'LATIN1'
 );
 
-SELECT * FROM orders;
+SELECT count(*) as total_orders
+from orders;
