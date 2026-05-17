@@ -59,11 +59,9 @@ Current Progress:
 - SQL data profiling completed
 - SQL cleaning and feature creation completed
 - SQL business analysis in completed
-- Power BI dashboard development pending
 ---
 
 ## Planned Next Steps
-- create SQL views for Power BI
 - Build interactive Power BI dashboard
 - Create executive summary dashboard
 
@@ -79,7 +77,8 @@ supply-chain-delay-analysis/
 │
 └── sql/
     └── 01_create_table.sql
-     └─ 02_data_profiling.sql
-     └── 03_cleaning.sql
-     └── 04_analysis.sql
+    └──  02_data_profiling.sql
+    └── 03_cleaning.sql
+    └── 04_analysis.sql
+    └── 05_views_for_powerbi.sql
 ```
